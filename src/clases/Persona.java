@@ -12,7 +12,7 @@ public class Persona { //Para acceder a una clase desde otro archivo esta debe s
     //se puede mandar llamar tantas veces como se necesitan
     //puede recibir valores (argumentos)
     //puede regresar valores (valor de retorno)
-    public void despegarInformacion() {
+    public void desplegarInformacion() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Apellido: " + apellido);
     }
