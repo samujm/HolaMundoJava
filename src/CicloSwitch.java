@@ -22,5 +22,7 @@ public class CicloSwitch {
             default:
                 numeroTexto = "Caso no encontrado";
         }
+        
+        System.out.println("numeroTexto = " + numeroTexto);
     }
 }
