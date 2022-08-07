@@ -1,7 +1,11 @@
+import java.util.Scanner;
 
 public class EjercicioEstacionSwitch {
     public static void main(String args[]) {
-        var mes = 1;
+        var pedir = new Scanner(System.in);
+        
+        System.out.println("Escribe el mes:");
+        var mes = Integer.parseInt(pedir.nextLine());
         var estacion = "Estacion desconocida";
         
         switch(mes){
