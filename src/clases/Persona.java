@@ -4,8 +4,8 @@ public class Persona { //Para acceder a una clase desde otro archivo esta debe s
     //Atributos al inicio
     //Atributo es una caracteristica que vamos a asociar a nuestra clase
 
-    String nombre;
-    String apellido;
+    public String nombre;
+    public String apellido;
 
     //Despues los metodos
     //Metodo es una parte de codigo que vamos a poder reutilizar
